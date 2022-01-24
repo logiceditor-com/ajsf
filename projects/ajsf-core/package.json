@@ -45,13 +45,6 @@
     "ajv": "^6.10.0",
     "tslib": "^2.0.0"
   },
-  "peerDependencies": {
-    "@angular/common": ">=11.0.0",
-    "@angular/core": ">=11.0.0",
-    "@angular/forms": ">=11.0.0",
-    "@angular/platform-browser": ">=11.0.0",
-    "rxjs": "^6.0.0"
-  },
   "devDependencies": {
     "@types/lodash-es": "^4.17.3"
   }

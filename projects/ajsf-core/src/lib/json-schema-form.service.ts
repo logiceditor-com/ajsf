@@ -656,8 +656,8 @@ export class JsonSchemaFormService {
     // Set value of current control
     ctx.controlValue = value;
     if (ctx.boundControl) {
-      ctx.formControl.setValue(value);
       ctx.formControl.markAsDirty();
+      ctx.formControl.setValue(value);
     }
     ctx.layoutNode.value = value;
 
